@@ -6,19 +6,23 @@ data <- read.csv('data.csv')
 termopt <- unique(data$term)
 subjopt <- unique(data$crs)
 radio <- c('gender','ethnicity')
-testing <- c("Fall, 2014" = 'Wrong',
-             "Spring, 2015" = 'Wrong',
-             "Fall, 2015" = 'Right!',
-             "Spring, 2016" = 'Wrong')
 
 ui <- fluidPage(
-  checkboxGroupInput("term","Select a Term", choices = termopt),
-  textOutput("test")
+  checkboxGroupInput("strm","Select a Term", choices = termopt),
+  textOutput("hist")
 )
 
 server <- function(input, output) {
-  output$test <- renderText ({
-    testing[input$term]
+  output$hist <- renderPlot ({
+    
+    temp <- data %>%
+      subset(term %in% output$strm) %>%
+      group_by(term) %>%
+      summarise(avg = mean(success))
+    
+    ggplot(data = temp, aes(x = term, y = avg)) +
+      geom_bar(stat = 'identity')
+    
   })
 }
 
