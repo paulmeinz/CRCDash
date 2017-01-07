@@ -9,14 +9,14 @@ radio <- c('gender','ethnicity')
 
 ui <- fluidPage(
   checkboxGroupInput("strm","Select a Term", choices = termopt),
-  textOutput("hist")
+  plotOutput("hist")
 )
 
 server <- function(input, output) {
   output$hist <- renderPlot ({
     
     temp <- data %>%
-      subset(term %in% output$strm) %>%
+      subset(term %in% input$strm) %>%
       group_by(term) %>%
       summarise(avg = mean(success))
     
