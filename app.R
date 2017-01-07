@@ -7,7 +7,9 @@ termopt <- unique(data$term)
 subjopt <- unique(data$crs)
 radio <- c('gender','ethnicity')
 
-ui <- fluidPage()
+ui <- fluidPage(
+  checkboxGroupInput("term","Select a Term", choices = termopt)
+)
 
 server <- function(input, output) {}
 
