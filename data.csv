@@ -13,7 +13,7 @@ term,crs,Gender,Ethnicity,success
 "Fall, 2014",CISW,Male,Asian/Pacific Is.,100
 "Fall, 2014",CISN,Male,Native American,0
 "Fall, 2014",ACCT,Male,Hispanic/Latino,0
-"Fall, 2014",ECE,Unknown,Native American,100
+"Fall, 2014",ECE,Male,Native American,100
 "Fall, 2014",ECON,Female,Native American,0
 "Fall, 2014",CISW,Female,Hispanic/Latino,100
 "Fall, 2014",CISN,Male,Native American,100
@@ -38,7 +38,7 @@ term,crs,Gender,Ethnicity,success
 "Fall, 2014",CISW,Female,Native American,100
 "Fall, 2014",CISN,Male,White,0
 "Fall, 2014",ACCT,Male,Hispanic/Latino,100
-"Fall, 2014",ECE,Unknown,Asian/Pacific Is.,0
+"Fall, 2014",ECE,Female,Asian/Pacific Is.,0
 "Fall, 2014",ECON,Male,White,0
 "Fall, 2014",CISW,Female,Asian/Pacific Is.,0
 "Fall, 2014",CISN,Male,White,0
@@ -105,7 +105,7 @@ term,crs,Gender,Ethnicity,success
 "Fall, 2014",ACCT,Female,Hispanic/Latino,100
 "Fall, 2014",ECE,Male,Asian/Pacific Is.,0
 "Fall, 2014",ECON,Male,Native American,0
-"Fall, 2014",CISW,Unknown,African American,0
+"Fall, 2014",CISW,Male,African American,0
 "Fall, 2014",CISN,Male,Native American,0
 "Fall, 2014",ACCT,Male,Asian/Pacific Is.,100
 "Fall, 2014",ECE,Male,Asian/Pacific Is.,0
@@ -170,7 +170,7 @@ term,crs,Gender,Ethnicity,success
 "Fall, 2014",ACCT,Female,Native American,100
 "Fall, 2014",ECE,Female,Hispanic/Latino,0
 "Fall, 2014",ECON,Male,African American,0
-"Fall, 2014",CISW,Unknown,Native American,0
+"Fall, 2014",CISW,Female,Native American,0
 "Fall, 2014",CISN,Male,Native American,0
 "Fall, 2014",ACCT,Female,Hispanic/Latino,0
 "Fall, 2014",ECE,Male,Native American,100
@@ -356,7 +356,7 @@ term,crs,Gender,Ethnicity,success
 "Spring, 2015",ECE,Female,African American,100
 "Spring, 2015",ECON,Male,Hispanic/Latino,100
 "Spring, 2015",CISW,Female,African American,100
-"Spring, 2015",CISN,Unknown,African American,100
+"Spring, 2015",CISN,Male,African American,100
 "Spring, 2015",ACCT,Female,Asian/Pacific Is.,0
 "Spring, 2015",ECE,Male,White,100
 "Spring, 2015",ECON,Male,African American,0
@@ -373,7 +373,7 @@ term,crs,Gender,Ethnicity,success
 "Spring, 2015",CISW,Female,Native American,100
 "Spring, 2015",CISN,Male,Native American,100
 "Spring, 2015",ACCT,Female,Asian/Pacific Is.,100
-"Spring, 2015",ECE,Unknown,Native American,100
+"Spring, 2015",ECE,Female,Native American,100
 "Spring, 2015",ECON,Female,Hispanic/Latino,0
 "Spring, 2015",CISW,Female,Native American,0
 "Spring, 2015",CISN,Female,White,0
@@ -387,7 +387,7 @@ term,crs,Gender,Ethnicity,success
 "Spring, 2015",ECON,Male,Asian/Pacific Is.,100
 "Spring, 2015",CISW,Female,African American,100
 "Spring, 2015",CISN,Female,White,0
-"Spring, 2015",ACCT,Unknown,Native American,100
+"Spring, 2015",ACCT,Male,Native American,100
 "Spring, 2015",ECE,Male,Asian/Pacific Is.,100
 "Spring, 2015",ECON,Female,Asian/Pacific Is.,100
 "Spring, 2015",CISW,Male,White,100
@@ -629,7 +629,7 @@ term,crs,Gender,Ethnicity,success
 "Fall, 2015",CISN,Female,African American,0
 "Fall, 2015",ACCT,Female,White,100
 "Fall, 2015",ECE,Male,White,0
-"Fall, 2015",ECON,Unknown,Native American,100
+"Fall, 2015",ECON,Male,Native American,100
 "Fall, 2015",CISW,Female,Asian/Pacific Is.,100
 "Fall, 2015",CISN,Female,Native American,0
 "Fall, 2015",ACCT,Male,Asian/Pacific Is.,100
@@ -846,14 +846,14 @@ term,crs,Gender,Ethnicity,success
 "Spring, 2016",ECE,Female,African American,100
 "Spring, 2016",ECON,Female,African American,100
 "Spring, 2016",CISW,Male,Native American,100
-"Spring, 2016",CISN,Unknown,White,100
+"Spring, 2016",CISN,Male,White,100
 "Spring, 2016",ACCT,Male,White,100
 "Spring, 2016",ECE,Female,Native American,0
 "Spring, 2016",ECON,Male,Asian/Pacific Is.,100
 "Spring, 2016",CISW,Female,Native American,100
 "Spring, 2016",CISN,Male,Asian/Pacific Is.,100
 "Spring, 2016",ACCT,Male,Asian/Pacific Is.,100
-"Spring, 2016",ECE,Unknown,White,100
+"Spring, 2016",ECE,Female,White,100
 "Spring, 2016",ECON,Male,Asian/Pacific Is.,100
 "Spring, 2016",CISW,Male,Asian/Pacific Is.,0
 "Spring, 2016",CISN,Female,Asian/Pacific Is.,0
@@ -932,13 +932,13 @@ term,crs,Gender,Ethnicity,success
 "Spring, 2016",ECON,Female,Native American,0
 "Spring, 2016",CISW,Male,Native American,0
 "Spring, 2016",CISN,Male,Hispanic/Latino,100
-"Spring, 2016",ACCT,Unknown,White,0
+"Spring, 2016",ACCT,Female,White,0
 "Spring, 2016",ECE,Female,African American,100
 "Spring, 2016",ECON,Male,Native American,0
 "Spring, 2016",CISW,Male,Native American,100
 "Spring, 2016",CISN,Male,Native American,100
 "Spring, 2016",ACCT,Female,Native American,100
-"Spring, 2016",ECE,Unknown,Native American,100
+"Spring, 2016",ECE,Female,Native American,100
 "Spring, 2016",ECON,Female,Asian/Pacific Is.,100
 "Spring, 2016",CISW,Male,Native American,100
 "Spring, 2016",CISN,Female,Native American,100
