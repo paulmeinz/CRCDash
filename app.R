@@ -10,15 +10,18 @@ radio <- c("Gender","Ethnicity")
 
 ui <- fluidPage(
   
+  #link css file
+  theme = "style.css",
+  
   # Headers
   fluidRow(
-    column(3, class = "top1",
-      tags$p(tags$h1(style = "color: Orange",
-                     "HawkDash"))),
-    column(9, class = "top2",
+    column(4, class = "top1",
+      tags$p(tags$h1(style = "color: white",
+                     "CRC HawkDash"))),
+    column(8, class = "top2",
       tags$p(
-        tags$h1(style = "color: Orange",
-                "Cosumnes River College Planning and Research")))),
+        tags$h1(style = "color: White; text-align: center",
+                "Interactive Course Success Dashboard")))),
   
   # Input buttons and plot area
   sidebarLayout(
@@ -31,11 +34,14 @@ ui <- fluidPage(
   # Bottom row with note about fabricated data
   fluidRow(
     column(12, class = "bottom",
-      tags$p(style = "color: Orange,","*Data are fabricated for demonstration"))
+      tags$p(style = "color: White; size: 16px","Product of CRC Research.
+             Data are fabricated for demonstration purposes."))
   )
 )
 
 server <- function(input, output) {
+  
+  # Calculate plot data after update has been clicked
   temp <- eventReactive(input$go, {
     dots <- lapply(list("term",input$demo), as.symbol)
     
@@ -48,6 +54,7 @@ server <- function(input, output) {
     temp
   })
   
+  # Create javascript Rcharts plot
   output$hist <- renderChart ({
     n1 <- nPlot(avg ~ term, group = "demo_col", data = temp(), type = "multiBarChart")
     n1$addParams(dom = 'hist')
